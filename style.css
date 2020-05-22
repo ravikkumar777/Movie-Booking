@@ -1,0 +1,95 @@
+/* body */
+
+body {
+    background-color: #E8E8E8;
+}
+
+/* navbar */
+
+nav .nav-link {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+nav li a .fa {
+    color: black;
+    font-size: 24px;
+}
+
+.prof-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* carousel CSS */
+
+.hr {
+    height: 4px;
+    background-color: #FFA500;
+    width: 100%;
+}
+
+/* card-menu */
+
+.sub-head h6 {
+    font-size: 12px;
+    padding-left: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.card-play {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 20px
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
+}
+
+.card-img-top:hover {
+    transform: scale(1.08);
+}
+
+.card-title {
+    font-size: 10px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.card-text {
+    font-size: 10px;
+    font-weight: bold;
+    color: #888;
+}
+
+.card-content .fa {
+    font-size: 15px;
+    color: gray;
+    float: right;
+}
+
+/* CSS for responsive */
+
+@media (min-width:768px) {}
+
+@media (max-width:768px) {
+    .card-play {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 25px;
+    }
+    .card-img-top:hover {
+        transform: scale(1.0);
+    }
+}
